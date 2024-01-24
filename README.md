@@ -10,15 +10,22 @@ Smart ATS is a tool designed to enhance the efficiency of the resume review proc
 
 ## How to Use
 
-### 1. Installation
+### 1. Clone the Repository
 
-Clone the repository and install the required packages:
+```bash
+git clone https://github.com/your-username/smart-ats.git
+cd smart-ats
+```
+
+### 2. Installation
+
+Install the required Python packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Running the Application
+### 3. Running the Application
 
 Execute the following command to launch the Smart ATS application:
 
@@ -28,7 +35,7 @@ streamlit run app.py
 
 This will open a local development server, and you can access the application in your web browser.
 
-### 3. Usage
+### 4. Usage
 
 1. **Paste the Job Description**: Enter the job description into the provided text area.
 
@@ -59,3 +66,4 @@ This format provides a percentage match, a list of missing keywords, and an opti
 This project relies on Google's Generative AI, and a valid API key is required for proper functioning. Ensure that you have the necessary permissions and comply with any usage policies related to the API.
 
 ---
+
