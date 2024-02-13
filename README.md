@@ -1,4 +1,5 @@
-# Smart ATS - Resume Improvement with AI
+# ResumeMatcher-ATS [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://resume-matcher-ats.streamlit.app/)
+
 
 ## Overview
 
