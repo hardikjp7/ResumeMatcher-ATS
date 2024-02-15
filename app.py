@@ -11,8 +11,8 @@ load_dotenv()
 # Configure Streamlit page settings
 st.set_page_config(
     page_title="Smart ATS",
-    page_icon=":robot_face:",  # Favicon emoji
-    layout="centered",  # Page layout option
+    page_icon="👨‍💼",
+    layout="centered",
 )
 
 # Sidebar to input Google API Key
