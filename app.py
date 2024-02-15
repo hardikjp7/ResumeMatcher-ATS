@@ -17,7 +17,7 @@ st.set_page_config(
 
 # Sidebar to input Google API Key
 st.sidebar.title("Smart ATS Configuration")
-API_KEY = st.sidebar.text_input("Enter your Google API Key", type="password", value=os.getenv("API_KEY"))
+API_KEY = st.sidebar.text_input("Enter your Google API Key", type="password")
 st.sidebar.subheader("Don't have a Google API Key?")
 st.sidebar.write("Visit [Google Makersuite](https://makersuite.google.com/app/apikey) and log in with your Google account. Then click on 'Create API Key'.")
 
